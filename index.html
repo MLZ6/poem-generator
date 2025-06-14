@@ -7,7 +7,10 @@
     <title>Poem Generator</title>
   </head>
   <body>
-    <h1>AI poem generator</h1>
+    <div class="container">
+  <header>
+    <h1>AI Poem Generator</h1>
+  </header>
 
     <main>
       <form>
@@ -17,10 +20,11 @@
           autofocus
           required
           autocomplete="off"
+          class="instructions"
         />
-        <input type="submit" />
+        <input type="submit" class="submit-button" />
       </form>
-      <div>Poem will go here</div>
+      <div class="poem">Poem will go here</div>
     </main>
 
     <footer>
@@ -35,6 +39,7 @@
         >Netlify</a
       >
     </footer>
+  </div>
     <script src="src/index.js"></script>
   </body>
 </html>
